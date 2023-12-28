@@ -4,7 +4,7 @@ class PromptChecker:
     def __init__(self):
         self.message = "success"
         self.deepl = DeepLTranslator()
-        self.file_path = "general/banned_words.txt"
+        self.file_path = "banned_words.txt"
         self.banned_words = self.load_banned_words()
 
     def load_banned_words(self):
